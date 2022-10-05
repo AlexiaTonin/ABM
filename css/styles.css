@@ -1,0 +1,48 @@
+@font-face {
+  font-family: good;
+  src: url(../assets/fonts/good\ times\ rg.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(33, 37, 41);
+}
+.users{
+  width: 100%;
+  height: 10rem;
+  background-color: rgb(12, 11, 11);
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  font-family: good;
+}
+.AbmTable{
+  width: 100%;
+  height: auto;
+}
+.mHeader{
+  background-color: rgb(33, 37, 41);
+  height: 4rem;
+  border-bottom: 1px solid greenyellow;
+}
+.modalColor{
+  color: greenyellow;
+}
+.modalButton{
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+.modalButton:hover{
+  color: black !important;
+  background-color: greenyellow!important;
+  border-radius: 5px;
+}
+.btnColor{
+  background-color: greenyellow;
+}
+table > thead > tr > th {
+  color: greenyellow;
+  font-size: 1.2rem;
+  font-family: good;
+}
