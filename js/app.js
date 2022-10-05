@@ -168,16 +168,3 @@ const buscar = (filtro) => {
 	);
 	listarUsuarios(usuariosFiltrados);
 };
-
-
-// const usuario = {
-// 	nombre: 'test',
-// 	id: 123
-// };
-
-// const JSONusuario = JSON.stringify(usuario);
-// localStorage.setItem('usuarios', JSONusuario);
-
-// const usuariosEnStorage = localStorage.getItem('usuarios');
-// const objectUsuario = JSON.parse(usuariosEnStorage);
-// console.log(usuariosEnStorage, objectUsuario);
